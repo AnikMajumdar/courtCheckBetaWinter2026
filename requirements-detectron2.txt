@@ -1,0 +1,17 @@
+# Detectron2 installation instructions
+# 
+# Detectron2 must be installed separately based on your CUDA version.
+# Choose the appropriate command for your system:
+#
+# CUDA 11.8 (recommended):
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
+#
+# CUDA 11.7:
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu117/torch2.0/index.html
+#
+# CPU only:
+# pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html
+#
+# For other CUDA versions or PyTorch versions, see:
+# https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md
+

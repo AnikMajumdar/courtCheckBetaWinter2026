@@ -1,0 +1,20 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+
+# Detectron2
+# Note: Detectron2 installation varies by CUDA version
+# For CUDA 11.8: pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
+# For CUDA 11.7: pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu117/torch2.0/index.html
+# For CPU only: pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch2.0/index.html
+# See https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md for details
+detectron2>=0.6
+
+# Utilities
+tqdm>=4.64.0
+pyyaml>=6.0
+

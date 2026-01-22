@@ -1,0 +1,88 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+
+# --------------------
+# Virtual environments
+# --------------------
+venv/
+env/
+ENV/
+.venv/
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# --------------------
+# Model weights & checkpoints (DO NOT COMMIT)
+# --------------------
+*.pth
+*.pt
+*.ckpt
+*.pkl
+weights/
+checkpoints/
+models/
+
+# --------------------
+# Data & outputs (DO NOT COMMIT)
+# --------------------
+data/
+dataset/
+datasets/
+output/
+outputs/
+results/
+
+# --------------------
+# Logs
+# --------------------
+logs/
+*.log
+metrics.json
+
+# --------------------
+# OS
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Cache / temp
+# --------------------
+.cache/
+*.tmp
+*.temp
+
+# --------------------
+# Modal
+# --------------------
+.modal/
+
+# --------------------
+# Colab artifacts (legacy)
+# --------------------
+/content/
