@@ -18,3 +18,7 @@ detectron2>=0.6
 tqdm>=4.64.0
 pyyaml>=6.0
 
+# Modal (for deployment)
+modal>=0.64.0
+
+
